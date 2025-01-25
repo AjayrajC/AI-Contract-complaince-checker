@@ -27,3 +27,4 @@ To install the dependencies, create a virtual environment (optional but recommen
 ```bash
 pip install -r requirements.txt
 # AI-Contract-complaince-checker
+# AI-Contract-complaince-checker
