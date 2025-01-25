@@ -26,10 +26,6 @@ To set up and run the AI Contract Compliance Checker, ensure you have the follow
 - Pinecone (optional, for cloud-based vector store)
 - Ollama (for deploying and querying the LLaMA3.1 model)
 
-## Installation
-```
-pip install -r requirements.txt
-```
 ## License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
