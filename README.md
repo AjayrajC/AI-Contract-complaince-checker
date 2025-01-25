@@ -26,5 +26,10 @@ To install the dependencies, create a virtual environment (optional but recommen
 
 ```bash
 pip install -r requirements.txt
-# AI-Contract-complaince-checker
-# AI-Contract-complaince-checker
+
+
+```
+## License
+
+This project is licensed under the MIT License - see the LICENSE file for details.
+
