@@ -1,35 +1,33 @@
-# AI Contract Complaince checker
+# AI Contract Compliance Checker
 
-This project allows you to upload a PDF document, split its content into chunks, create embeddings using HuggingFace's BGE embedding model, store those embeddings in a FAISS vector store, and query the document using a locally deployed LLaMA3.1 model for contextual answers.
+The AI Contract Compliance Checker is an advanced tool designed to help users upload contract PDF documents, process their content, and perform compliance checks using state-of-the-art AI models. It enables document chunking, embedding creation, vector storage, and querying for contextual answers using a locally deployed LLaMA3.1 model.
 
 ## Features
 
-- **Upload PDF**: Upload a PDF document for processing.
-- **Document Chunking**: The PDF is split into smaller chunks for easier handling.
-- **Embedding Creation**: Generate embeddings for document chunks using HuggingFace's BGE embedding model.
-- **Vector Storage**: Store embeddings locally using FAISS or upload them to Pinecone (optional).
-- **LLaMA3.1 Querying**: Query the document using the LLaMA3.1 model for answers based on the document content.
+- **PDF Upload**: Easily upload contract PDF files for processing and compliance checks.
+- **Document Chunking**: Automatically split large PDF content into manageable chunks for efficient handling.
+- **Embedding Creation**: Generate high-quality embeddings for the document chunks using HuggingFace's BGE embedding model.
+- **Vector Store Integration**:
+  - **Local Storage**: Store embeddings locally using FAISS for fast, scalable vector-based operations.
+  - **Optional Cloud Integration**: Optionally upload embeddings to Pinecone for cloud-based storage and retrieval.
+- **LLaMA3.1 Querying**: Query the uploaded document using the LLaMA3.1 model for answers based on its content, ensuring accurate and contextual responses.
+- **Compliance Checks**: Perform checks against predefined compliance rules to identify contract irregularities or issues.
 
 ## Requirements
 
-Before running the app, make sure you have the following dependencies installed:
+To set up and run the AI Contract Compliance Checker, ensure you have the following installed:
 
 - Python 3.12 or higher
-- Streamlit
-- LangChain
-- HuggingFace Embeddings
-- FAISS
-- Pinecone (Optional for cloud-based vector store)
-- Ollama (For querying the LLaMA3.1 model)
+- Streamlit (for the user interface)
+- LangChain (for managing AI interactions)
+- HuggingFace Embeddings (for generating embeddings)
+- FAISS (for local vector storage)
+- Pinecone (optional, for cloud-based vector store)
+- Ollama (for deploying and querying the LLaMA3.1 model)
 
-To install the dependencies, create a virtual environment (optional but recommended) and run:
+### Installation
 
-```bash
-pip install -r requirements.txt
-
-
-```
-## License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
-
+1. **Clone the Repository**:
+   ```bash
+   git clone git@github.com:AjayrajC/AI-Contract-complaince-checker.git
+   cd AI-Contract-complaince-checker
