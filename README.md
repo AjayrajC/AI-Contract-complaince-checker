@@ -1,4 +1,4 @@
-# PDF Ingestion, Embedding, and Querying with LLaMA3.1
+# AI Contract Complaince checker
 
 This project allows you to upload a PDF document, split its content into chunks, create embeddings using HuggingFace's BGE embedding model, store those embeddings in a FAISS vector store, and query the document using a locally deployed LLaMA3.1 model for contextual answers.
 
